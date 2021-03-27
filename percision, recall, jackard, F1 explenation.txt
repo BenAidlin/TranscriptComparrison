@@ -1,0 +1,12 @@
+percision = how many true positive of all positive detacetions, we dont care about negative detacetions
+percision = True posistive / (True positive + false positive)
+
+recall = how many true positive of all actually positive, we dont care about actuall negatives
+recall = True positives / (True positive + false negatives)
+
+F1 is a balance measure between recall and percision, whereas we calculate accuracy 
+not avoiding both false pos and false negs 
+F1 = (2 *percision * recall) / (percision + recall)
+
+jaccard similarity index is a way to detarmine to what degree two sets are similarity
+jaccard index to detarmine if groups A and B are similar = ( A intersaction B) / (A union B) (to percents mul by 100)
